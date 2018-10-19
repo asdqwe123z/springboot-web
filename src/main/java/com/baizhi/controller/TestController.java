@@ -18,7 +18,7 @@ import java.util.Map;
 public class TestController {
     Logger logger=LoggerFactory.getLogger(TestController.class);
     @Autowired
-    //service层
+    //service层调用
     private UserService service;
     @RequestMapping("/test")
     public String test(){
