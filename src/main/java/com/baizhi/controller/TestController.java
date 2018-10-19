@@ -30,6 +30,7 @@ public class TestController {
     public String selectAll(Map map){
         List<User>list=service.selectAll();
         logger.debug("debug+++");
+        System.out.println("你想干什么");
         map.put("list",list);
         return "index";
     }
